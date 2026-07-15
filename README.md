@@ -6,8 +6,7 @@ _Official golang implementation of the Canopy Network Protocol_
 [![Getting Started](https://img.shields.io/badge/getting%20started-guide-white)](https://canopynetwork.org)
 [![Go Version](https://img.shields.io/badge/golang-v1.21-white.svg)](https://golang.org)
 [![Next.js Version](https://img.shields.io/badge/next%20js-v14.2.3-white.svg)](https://nextjs.org/)
-
-
+# Nexus
 # Overview
 
 [![License](https://img.shields.io/badge/License-MIT-white.svg)](https://opensource.org/licenses/MIT)
@@ -39,7 +38,7 @@ For more information on the Canopy Network Protocol visit [https://canopynetwork
 ## Repository Documentation
 
 Welcome to the Canopy Network reference implementation. This repository can be well understood reading about the core modules:
-
+#linux
 - [Controller](controller/README.md): Coordinates communication between all the major parts of the Canopy blockchain, like a central hub or "bus" that connects the system together.
 - [Finite State Machine (FSM)](fsm/README.md): Defines the logic for how transactions change the blockchain's state — it decides what’s valid and how state transitions happen from one block to the next.
 - [Byzantine Fault Tolerant (BFT) Consensus](bft/README.md): A consensus mechanism that allows the network to agree on new blocks even if some nodes are unreliable or malicious.
